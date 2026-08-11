@@ -115,6 +115,9 @@ const metrics = [
   ["Azure", "Cloud infrastructure focus"]
 ];
 
+const assetBase = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const resumeHref = `${assetBase}/assets/Jeet.Cloud%20Engineer_Resume.pdf`;
+
 const contactLinks = [
   {
     label: "Email",
@@ -134,7 +137,7 @@ const contactLinks = [
   {
     label: "Resume",
     value: "Download PDF",
-    href: "/assets/Jeet.Cloud%20Engineer_Resume.pdf",
+    href: resumeHref,
     download: true
   }
 ];
@@ -231,7 +234,7 @@ export default function Home() {
             <div className="hero-actions">
               <a className="button primary" href="#work">See cloud work</a>
               <a className="button" href="#contact">Get in touch</a>
-              <a className="button ghost" href="/assets/Jeet.Cloud%20Engineer_Resume.pdf" download>
+              <a className="button ghost" href={resumeHref} download>
                 Download resume
               </a>
             </div>
