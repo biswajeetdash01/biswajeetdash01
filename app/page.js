@@ -131,8 +131,8 @@ const contactLinks = [
   },
   {
     label: "LinkedIn",
-    value: "biswas-biswajeet-dash",
-    href: "https://www.linkedin.com/in/biswas-biswajeet-dash/"
+    value: "ben-dash",
+    href: "https://www.linkedin.com/in/ben-dash/"
   },
   {
     label: "Resume",

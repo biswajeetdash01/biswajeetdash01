@@ -39,5 +39,5 @@ ServiceNow, Jira Service Management, incident management, SLA management, root c
 ## Contact
 
 - Email: [connect.ben.au@gmail.com](mailto:connect.ben.au@gmail.com)
-- LinkedIn: [biswas-biswajeet-dash](https://www.linkedin.com/in/biswas-biswajeet-dash/)
+- LinkedIn: [ben-dash](https://www.linkedin.com/in/ben-dash/)
 - Portfolio: [biswajeetdash01.github.io/biswajeetdash01](https://biswajeetdash01.github.io/biswajeetdash01/)
