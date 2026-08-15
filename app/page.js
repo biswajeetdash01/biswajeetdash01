@@ -121,8 +121,8 @@ const resumeHref = `${assetBase}/assets/Jeet.Cloud%20Engineer_Resume.pdf`;
 const contactLinks = [
   {
     label: "Email",
-    value: "biswas25277@gmail.com",
-    href: "mailto:biswas25277@gmail.com"
+    value: "connect.ben.au@gmail.com",
+    href: "mailto:connect.ben.au@gmail.com"
   },
   {
     label: "Phone",
@@ -171,7 +171,7 @@ export default function Home() {
   const message = useMemo(() => {
     const extra = note.trim();
     const lines = [
-      "Hi Jeet,",
+      "Hi Ben,",
       "",
       `I'm reaching out about: ${briefType}.`,
       `The main area is: ${briefArea}.`,
@@ -203,7 +203,7 @@ export default function Home() {
     event.preventDefault();
     const subject = encodeURIComponent(`Portfolio enquiry: ${briefType}`);
     const body = encodeURIComponent(message);
-    window.location.href = `mailto:biswas25277@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:connect.ben.au@gmail.com?subject=${subject}&body=${body}`;
     setCopied(true);
     window.setTimeout(() => setCopied(false), 2200);
   };
@@ -211,7 +211,7 @@ export default function Home() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top">JEET.DASH</a>
+        <a className="brand" href="#top">BEN.DASH</a>
         <nav className="nav" aria-label="Primary navigation">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
@@ -456,7 +456,7 @@ export default function Home() {
                   value={note}
                   onChange={(event) => setNote(event.target.value)}
                   rows="5"
-                  placeholder="Share the role, environment, users affected, or anything Jeet should know before replying"
+                  placeholder="Share the role, environment, users affected, or anything Ben should know before replying"
                 />
               </label>
               <button className="button primary" type="submit">
@@ -493,7 +493,7 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <span>(c) Jeet Dash - Cloud Engineer</span>
+        <span>(c) Ben Dash - Cloud Engineer</span>
         <a href="#top">Back to top</a>
       </footer>
     </>
