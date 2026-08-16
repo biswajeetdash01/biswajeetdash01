@@ -224,7 +224,7 @@ export default function Home() {
       <main id="top">
         <section className="hero section">
           <div className="hero-copy" data-reveal>
-            <p className="eyebrow">Cloud Engineer - Sydney & Melbourne, Australia</p>
+            <p className="eyebrow">Cloud Engineer - Australia</p>
             <h1>I keep cloud and hybrid environments reliable, secure, and easy to operate.</h1>
             <p className="lead">
               Cloud Engineer with 4+ years of progressive IT experience across Microsoft Azure,
@@ -297,7 +297,7 @@ export default function Home() {
               monitoring, access controls, and technical documentation.
             </p>
             <dl className="fact-grid">
-              <div><dt>Based in</dt><dd>Sydney / Melbourne, Australia</dd></div>
+              <div><dt>Based in</dt><dd>Australia</dd></div>
               <div><dt>Focus</dt><dd>Azure, Microsoft 365, hybrid infrastructure</dd></div>
               <div><dt>Education</dt><dd>Master of Information Technology, Deakin University</dd></div>
               <div><dt>Strength</dt><dd>Incident resolution, access control, documentation</dd></div>
@@ -368,7 +368,7 @@ export default function Home() {
             <article>
               <time>Jul 2024 - Jul 2026</time>
               <h3>Master of Information Technology</h3>
-              <p>Deakin University - Melbourne, VIC</p>
+              <p>Deakin University - Australia</p>
             </article>
             <article>
               <time>2018 - 2022</time>
@@ -472,7 +472,7 @@ export default function Home() {
               <div className="contact-card intro-card">
                 <span>Available for</span>
                 <strong>Cloud support, Azure operations, and junior-to-mid cloud engineering roles.</strong>
-                <p>Sydney / Melbourne, Australia</p>
+                <p>Australia</p>
               </div>
               {contactLinks.map((link) => (
                 <a

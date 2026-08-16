@@ -6,7 +6,7 @@ I have 4+ years of progressive IT experience across cloud platforms, enterprise 
 
 ## Portfolio
 
-View my portfolio: [biswajeetdash01.github.io/biswajeetdash01](https://biswajeetdash01.github.io/biswajeetdash01/)
+View my portfolio: [ben01.github.io/ben01](https://ben01.github.io/ben01/)
 
 ## What I Work With
 
@@ -40,4 +40,4 @@ ServiceNow, Jira Service Management, incident management, SLA management, root c
 
 - Email: [connect.ben.au@gmail.com](mailto:connect.ben.au@gmail.com)
 - LinkedIn: [ben-dash](https://www.linkedin.com/in/ben-dash/)
-- Portfolio: [biswajeetdash01.github.io/biswajeetdash01](https://biswajeetdash01.github.io/biswajeetdash01/)
+- Portfolio: [ben01.github.io/ben01](https://ben01.github.io/ben01/)
